@@ -1,6 +1,10 @@
-def age():
-    myage=int(input("Input age"))
-    months=myage*12
-    print(f"You have lived for {months} months")
+try:
+    def age():
+        myage=int(input("Input age"))
+        months=myage*12
+        print(f"You have lived for {months} months")
 
-age()
+    age()
+
+except:
+    print("Not a number")
